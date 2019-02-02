@@ -19,6 +19,8 @@
 		B830576F2204223F004EE003 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B830576E2204223F004EE003 /* PlayingCard.m */; };
 		B83057722205609F004EE003 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B83057712205609F004EE003 /* PlayingCardDeck.m */; };
 		B830577522057CE9004EE003 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B830577422057CE9004EE003 /* CardGameViewController.m */; };
+		B830577F22058813004EE003 /* IMG_8712.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B830577E22058813004EE003 /* IMG_8712.jpg */; };
+		B830578122064A66004EE003 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B830578022064A66004EE003 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,12 @@
 		B8305773220560A8004EE003 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		B830577422057CE9004EE003 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		B830577622057CEE004EE003 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		B830577822058325004EE003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B830577A22058333004EE003 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B830577C22058399004EE003 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		B830577E22058813004EE003 /* IMG_8712.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8712.jpg; sourceTree = SOURCE_ROOT; };
+		B830578022064A66004EE003 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		B830578222064A72004EE003 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 				B830574E220412C9004EE003 /* CardTests */,
 				B8305759220412C9004EE003 /* CardUITests */,
 				B8305736220412C7004EE003 /* Products */,
+				B830577722058325004EE003 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +127,12 @@
 				B8305738220412C7004EE003 /* AppDelegate.h */,
 				B8305739220412C7004EE003 /* AppDelegate.m */,
 				B830573B220412C7004EE003 /* ViewController.h */,
+				B830577E22058813004EE003 /* IMG_8712.jpg */,
 				B830573C220412C7004EE003 /* ViewController.m */,
 				B830573E220412C9004EE003 /* Assets.xcassets */,
 				B8305740220412C9004EE003 /* Main.storyboard */,
+				B830578022064A66004EE003 /* CardMatchingGame.m */,
+				B830578222064A72004EE003 /* CardMatchingGame.h */,
 				B830577422057CE9004EE003 /* CardGameViewController.m */,
 				B830577622057CEE004EE003 /* CardGameViewController.h */,
 				B8305743220412C9004EE003 /* Info.plist */,
@@ -154,6 +166,16 @@
 				B830575C220412C9004EE003 /* Info.plist */,
 			);
 			path = CardUITests;
+			sourceTree = "<group>";
+		};
+		B830577722058325004EE003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B830577C22058399004EE003 /* XcodeKit.framework */,
+				B830577A22058333004EE003 /* Cocoa.framework */,
+				B830577822058325004EE003 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +283,7 @@
 			files = (
 				B830573F220412C9004EE003 /* Assets.xcassets in Resources */,
 				B8305742220412C9004EE003 /* Main.storyboard in Resources */,
+				B830577F22058813004EE003 /* IMG_8712.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +311,7 @@
 				B830576F2204223F004EE003 /* PlayingCard.m in Sources */,
 				B830576D22041D18004EE003 /* Deck.m in Sources */,
 				B830573D220412C7004EE003 /* ViewController.m in Sources */,
+				B830578122064A66004EE003 /* CardMatchingGame.m in Sources */,
 				B8305745220412C9004EE003 /* main.m in Sources */,
 				B83057722205609F004EE003 /* PlayingCardDeck.m in Sources */,
 				B830573A220412C7004EE003 /* AppDelegate.m in Sources */,
